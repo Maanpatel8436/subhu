@@ -14,7 +14,7 @@ This website is a handcrafted, cinematic digital universe designed to make her f
 - **Section 04 — A Little Appreciation**: 5 glassmorphic cards revealing heartfelt reminders.
 - **Section 05 — Our Little Memory**: Dedicated museum-grade frame for your special photograph together.
 - **Section 06 — A Letter From Me**: Translucent warm parchment letter revealing your heartfelt message paragraph by paragraph.
-- **Section 07 — The Final Surprise**: 4-part progressive midnight climax culminating in the luminous "I LOVE YOUUU! ❤️" declaration and Good Night message.
+- **Section 07 — The Final Surprise**: 4-part progressive midnight climax culminating in the luminous "YOU'RE SO SPECIAL!" declaration and Good Night message.
 - **Section 08 — One Last Little Thing**: Interactive finale revealing the parting reminder and peaceful moon animation.
 - **Dreamy Background Music**: Floating player with real audio playback (`/audio/background-music.mp3`) plus an integrated Web Audio API celestial chime synthesizer fallback that plays soothing music even before you upload an MP3!
 

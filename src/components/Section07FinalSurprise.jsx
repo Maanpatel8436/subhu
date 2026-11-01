@@ -167,7 +167,7 @@ export default function Section07FinalSurprise({ onComplete }) {
             </motion.div>
           )}
 
-          {/* STEP 2: THIRD MESSAGE — LOVE */}
+          {/* STEP 2: THIRD MESSAGE — SPECIAL APPRECIATION */}
           {currentStep === 2 && (
             <motion.div
               key="step-2"
@@ -175,16 +175,32 @@ export default function Section07FinalSurprise({ onComplete }) {
               animate={{ opacity: 1, scale: 1 }}
               exit={{ opacity: 0, scale: 0.95 }}
               transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
-              className="space-y-8 glass-panel p-8 sm:p-12 rounded-3xl border border-blush-pink/40 shadow-love-glow"
+              className="space-y-7 sm:space-y-8 glass-panel p-8 sm:p-12 rounded-3xl border border-blush-pink/40 shadow-love-glow"
             >
               <motion.div
-                initial={{ scale: 0.8, opacity: 0 }}
-                animate={{ scale: [1, 1.05, 1], opacity: 1 }}
-                transition={{ duration: 1.5, repeat: Infinity, repeatType: 'reverse' }}
+                initial={{ scale: 0.9, opacity: 0 }}
+                animate={{ scale: [1, 1.025, 1], opacity: 1 }}
+                transition={{ duration: 2.2, repeat: Infinity, repeatType: 'reverse', ease: 'easeInOut' }}
+                className="flex flex-col items-center justify-center space-y-2.5"
               >
-                <h2 className="font-handwriting text-5xl sm:text-7xl md:text-8xl text-blush-pink glow-text-pink tracking-wide">
-                  I LOVE YOUUU! ❤️
+                {/* Subtle glowing star / delicate sparkle indicator */}
+                <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full glass-panel border border-blush-pink/25 text-blush-pink text-xs font-mono tracking-widest uppercase">
+                  <Sparkles className="w-3.5 h-3.5 text-blush-pink animate-pulse" />
+                  <span className="text-moonlight-silver/85">From My Heart</span>
+                  <Sparkles className="w-3.5 h-3.5 text-blush-pink animate-pulse" />
+                </div>
+
+                {/* The Sweet New Heading in Elegant Pink Cursive Typography */}
+                <h2 className="font-handwriting text-5xl sm:text-7xl md:text-8xl text-blush-pink glow-text-pink tracking-wide py-1">
+                  You're So Special!
                 </h2>
+
+                {/* Delicate Starlight Divider */}
+                <div className="flex items-center justify-center gap-2 text-lavender-soft/50">
+                  <span className="w-8 h-[1px] bg-gradient-to-r from-transparent to-lavender-soft/40" />
+                  <span className="text-xs text-lavender-soft/80 animate-twinkle">✦</span>
+                  <span className="w-8 h-[1px] bg-gradient-to-l from-transparent to-lavender-soft/40" />
+                </div>
               </motion.div>
 
               <div className="space-y-4 max-w-lg mx-auto font-serif text-base sm:text-xl text-warmWhite font-light leading-relaxed">
